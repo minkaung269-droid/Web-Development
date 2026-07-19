@@ -1,0 +1,98 @@
+/* reseting the css first */
+* { 
+  margin: 0; 
+  padding: 0; 
+} 
+
+body {
+  background-color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.skill-tag {
+  color: aqua;
+  /*requirement 22 */
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.sub-title {
+  margin: 10px 0;
+}
+
+#profile-header {
+  background-color:#2a2727;
+  padding: 10px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact-section a {
+  margin: 0 10px;
+}
+
+.skill-tag:hover {
+  color: darkcyan;
+  cursor: pointer;
+}
+
+.full-name {
+  color: #00ff00;
+}
+
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+}
+
+.favorite-quote { 
+  font-style: italic; 
+}
+
+.bio {
+  line-height: 1.5;
+}
+
+.tagline {
+  letter-spacing: 2px; 
+  text-transform: uppercase;
+}
+
+#quote-section, #contact-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contact-section a:hover {
+  background-color: rgb(36, 36, 96);
+}
+
+#quote-section {
+  color: hsl(31, 100%, 65%);
+}
+
+#profile-footer {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #1c1919;
+}

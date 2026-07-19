@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 15px;
+    text-align: center;
+}
+h1 {
+    color: #2b3b3f;
+}
+
+h2{
+    color: #5c8a8a;
+}
+
+button{
+    background-color: #7b3dc7;
+    color: #fff000;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+img{
+    height: 90px;
+}
+
+button:hover{
+    background-color: #1e1528;
+    cursor: pointer;
+}
+#menu-container {
+        background-color: #d0dfb2;
+        border: solid 3px;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px;
+}
