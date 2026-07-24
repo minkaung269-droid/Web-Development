@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .item{
+            background-color: #f1c40f;
+            color: #2c3e50;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 8px;
+            height: 200px;
+            
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            flex-grow: 1;
+
+        }
+    </style>
+</head>
+<body>
+    <!--
+    a flexbox layout has two main parts
+    1. flex container is the parent element, it controls the layout of all child elements.
+    2. Flex items are the children inside a flex container.
+    Important Vocabulary
+    1. Flexbox - flexible layout
+    2. Container = parent element
+    3. item = child element
+    4. row = horizontal
+    5. column = vertical
+    6. main axis = main direction
+    7. cross axix = perpendicular direction-->
+
+    <h2>Flexbox Demo</h2>
+    <div class="container">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+
+    </div>
+  <h2>Build a Navigation Bar with Flexbox</h2>
+        <header>
+            <nav class="navbar">
+                <div class="logo">website</div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+</body>
+</html>

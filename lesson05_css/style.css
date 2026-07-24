@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+header{
+    background: #ccc;
+    padding: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    transition: ease 0.25s;
+
+}
+
+.nav-links a:hover{
+    color: #3498db;
+}
